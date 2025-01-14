@@ -434,3 +434,23 @@ header {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
 /* End scroll-to-top  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* القائمة المنسدلة على اليمين عند اللغة العربية (RTL) */
+body[dir="rtl"] header nav ul.show {
+  left: 0; /* وضع القائمة على اليسار */
+  right: auto; /* إلغاء ضبط القيمة الافتراضية */
+  text-align: right; /* محاذاة النصوص لليمين */
+}
