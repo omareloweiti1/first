@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<!-- <html lang="en" dir="ltr"> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+
+    <!-- Normalize CSS for consistent styling -->
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- Font Awesome Library for icons -->
+    <link rel="stylesheet" href="all.min.css">
+
+    <!-- Main Template CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="index-ltr.css"> -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS الخاص بـ Swiper.js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- JavaScript الخاص بـ Swiper.js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="img/boy.webp" alt="logo">
+            </a>
+            <i class="fas fa-bars toggle-menu"></i>
+            <nav>
+                <ul>
+                    <li><a class="active" href="#home">الصفحة الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                    <li><button id="language-toggle" class="language-toggle">English</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start Image Section -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- الشرائح -->
+            <div class="swiper-slide">
+                <img src="img/a.webp" alt="Image 1">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/a.webp" alt="Image 2">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/a.webp" alt="Image 3">
+            </div>
+        </div>
+        <!-- النقاط -->
+    </div>
+    <!-- End Image Section -->
+    <!-- Start Top Products -->
+    <div class="articles" id="articles">
+        <h2 class="main-title">المنتجات المميزة</h2> <!-- العنوان باللغة العربية -->
+        <div class="container">
+            <div class="box">
+                <img decoding="async" src="img/boy.webp" alt="المقال 1" />
+                <div class="content">
+                    <h3>Test</h3> <!-- النص بالإنجليزية -->
+                    <p>Test Lorem</p> <!-- النص بالإنجليزية -->
+                </div>
+                <div class="info">
+                    <a href="ProductDescription.html">اقرأ المزيد</a> <!-- النص بالعربية -->
+                    <i class="fas fa-long-arrow-alt-left"></i> <!-- عكس اتجاه السهم للعربية -->
+                </div>
+            </div>
+            <div class="box">
+                <img decoding="async" src="img/boy.webp" alt="المقال 2" />
+                <div class="content">
+                    <h3>Test</h3> <!-- النص بالإنجليزية -->
+                    <p>Test Lorem</p> <!-- النص بالإنجليزية -->
+                </div>
+                <div class="info">
+                    <a href="ProductDescription.html">اقرأ المزيد</a> <!-- النص بالعربية -->
+                    <i class="fas fa-long-arrow-alt-left"></i> <!-- عكس اتجاه السهم للعربية -->
+                </div>
+            </div>
+            <div class="box">
+                <img decoding="async" src="img/boy.webp" alt="المقال 3" />
+                <div class="content">
+                    <h3>Test</h3> <!-- النص بالإنجليزية -->
+                    <p>Test Lorem</p> <!-- النص بالإنجليزية -->
+                </div>
+                <div class="info">
+                    <a href="ProductDescription.html">اقرأ المزيد</a> <!-- النص بالعربية -->
+                    <i class="fas fa-long-arrow-alt-left"></i> <!-- عكس اتجاه السهم للعربية -->
+                </div>
+            </div>
+            <div class="box">
+                <img decoding="async" src="img/boy.webp" alt="المقال 4" />
+                <div class="content">
+                    <h3>Test</h3> <!-- النص بالإنجليزية -->
+                    <p>Test Lorem</p> <!-- النص بالإنجليزية -->
+                </div>
+                <div class="info">
+                    <a href="ProductDescription.html">اقرأ المزيد</a> <!-- النص بالعربية -->
+                    <i class="fas fa-long-arrow-alt-left"></i> <!-- عكس اتجاه السهم للعربية -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spikes"></div>
+
+    <!-- Start Contact Us -->
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <h2 class="main-title">اتصل بنا</h2>
+            <div class="contact-details">
+                <div class="detail">
+                    <h3>العنوان:</h3>
+                    <p>123 شارع الرئيسي، الإسكندرية، مصر</p>
+                </div>
+                <div class="detail">
+                    <h3>البريد الإلكتروني:</h3>
+                    <a href="mailto:example@email.com">example@email.com</a>
+                </div>
+                <div class="detail">
+                    <h3>أرقام الواتساب:</h3>
+                    <p><a href="https://wa.me/1234567890" target="_blank">+1 234 567 890</a></p>
+                    <p><a href="https://wa.me/0987654321" target="_blank">النصوص</a></p>
+                </div>
+                <div class="detail">
+                    <h3>فيسبوك:</h3>
+                    <p>
+                        <a href="https://www.facebook.com/YourPageName" target="_blank">قم بزيارة صفحتنا على
+                            الفيسبوك</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Us -->
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- شعار الفوتر -->
+                <div class="footer-logo">
+                    <img src="img/boy.webp" alt="شعار الموقع">
+                </div>
+                <!-- الروابط السريعة -->
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <!-- معلومات التواصل -->
+                <div class="footer-contact">
+                    <h4>معلومات التواصل</h4>
+                    <p>العنوان: 123 شارع الرئيسي، الإسكندرية، مصر</p>
+                    <p>البريد الإلكتروني: <a href="mailto:example@email.com">example@email.com</a></p>
+                    <p>الهاتف: +1 234 567 890</p>
+                </div>
+            </div>
+            <!-- حقوق النشر -->
+            <div class="footer-bottom">
+                <p>© 2025 موقعك. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Start scroll-to-top -->
+    <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
+    <!-- End scroll-to-top -->
+    <script src="script.js"></script>
+    <script src="scrlo.js"></script>
+
+</body>
+
+</html>
